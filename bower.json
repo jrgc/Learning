@@ -1,0 +1,22 @@
+{
+  "name": "Learning",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jrgc/AngularLearning",
+  "authors": [
+    "Javier <javigarcia@outlook.com>"
+  ],
+  "description": "Learning client side stuff",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.4",
+    "fontawesome": "~4.3.0"
+  }
+}

@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Learning Stuff</title>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/sweetalert/dist/sweetalert.min.js"></script>
+    <link href="node_modules/sweetalert/dist/sweetalert.css" rel="stylesheet" />
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="App/MyApplication.js"></script>
+    <script src="App/Controllers/home.js"></script>
+</head>
+<body ng-app="MyApplication" >
+    <div ng-controller="HomeController">
+        Hello {{ 1 + 1 }} <br />
+        <div class="btn btn-primary" data-ng-click="appear()">Click Me</div>
+    </div>    
+</body>
+</html>
