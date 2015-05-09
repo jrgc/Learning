@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "moment": "~2.10.2",
-    "sweetalert": "~1.0.0-beta"
+    "sweetalert": "~1.0.0-beta",
+    "requirejs": "~2.1.17"
   }
 }
